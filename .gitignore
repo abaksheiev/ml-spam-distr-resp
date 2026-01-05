@@ -1,0 +1,13 @@
+# Build results
+bin/
+obj/
+out/
+
+# Auto-generated VS/Resharper files
+*.ide
+*.DotSettings.user
+
+# Visual Studio Code settings
+.vscode/
+.vs/
+*.csv

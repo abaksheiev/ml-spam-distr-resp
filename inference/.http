@@ -1,0 +1,13 @@
+﻿### POST request for spam prediction via JSON body
+POST https://localhost:53784/predict
+Content-Type: application/json
+{
+  "emailText": "UR awarded a City Break and could WIN a £200 Summer Shopping spree every WK. Txt STORE to 88039 . SkilGme. TsCs087147403231Winawk!Age16 £1.50perWK"
+}
+
+### Another POST example with ham text
+POST https://localhost:53784/predict
+Content-Type: application/json
+{
+  "emailText": "Hey, are we still meeting at Jurong Point later?"
+}
